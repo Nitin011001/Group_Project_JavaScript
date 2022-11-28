@@ -1,15 +1,13 @@
-import React from 'react'
-import {motion} from 'framer-motion'
-import { useState } from 'react'
+import React from 'react';
+import { Card } from 'flowbite-react';
+import './../index.css';
 
 const Cards = () => {
   return (
-    <div>
-        <motion.div className="card">
-            
-        </motion.div>
-    </div>
-  )
-}
+    
+<div className="max-w-sm">
+</div>
+  );
+};
 
-export default Cards
+export default Cards;
